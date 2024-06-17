@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Child's Birth Announcement</title>
+</head>
+<body>
+    <h1>Welcome to Our Family!</h1>
+    <p>We are excited to announce the birth of our child!</p>
+    
+    <h2>Gender Poll</h2>
+    <form>
+        <label for="gender">What do you think the gender will be?</label><br>
+        <input type="radio" id="gender" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="gender" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="gender" name="gender" value="other">
+        <label for="other">Other</label><br>
+    </form>
+    
+    <h2>Birthdate Poll</h2>
+    <form>
+        <label for="birthdate">Guess the birthdate:</label><br>
+        <input type="date" id="birthdate" name="birthdate">
+    </form>
+</body>
+</html>
