@@ -1,2 +1,6 @@
-h1, h2, h3, p, fieldset {text-align: center;}
-body {background-color: lightgrey;}
+h1, h2, h3, p, fieldset {
+  text-align: center;
+  }
+body {
+  background-color: lightgrey;
+  }
