@@ -13,7 +13,26 @@
              <p>nog eventjes wachten, we tellen samen af</p>
     <div>
         <fieldset id="tijd">
-            <script src="Timer"></script>
+            <script>
+             const birthDate = new Date('2024-18-11T00:00:00').getTime();
+
+const countdown = setInterval(() => {
+  const now = new Date().getTime();
+  const distance = birthDate - now;
+
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  console.log(`${days}d ${hours}h ${minutes}m ${seconds}s`);
+
+  if (distance < 0) {
+    clearInterval(countdown);
+    console.log('Happy Birthday!');
+  }
+}, 1000);   
+            </script>
         </fieldset>
 
     </div>
