@@ -4,3 +4,9 @@ h1, h2, h3, p, fieldset {
 body {
   background-color: lightgrey;
   }
+.foto1 {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
