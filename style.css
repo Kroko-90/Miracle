@@ -9,3 +9,9 @@ body {
   display: block;
   width: 300px;
 }
+#timer {
+  color: red;
+  size: 50px;
+  
+
+}
