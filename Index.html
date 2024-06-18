@@ -16,13 +16,18 @@
     </section>
     <section>
         <h1>In tussentijd, tijd voor een pronostiekje</h1>
-            <!--insert foto van weegschaal-->
-        <Fieldset>
+            <img src="gokgeslacht.webp" alt="Jongentje of meisje">
+        <Fieldset class="box">
+            <form>
             <legend>Wordt het een jongetje of een meisje</legend>
-            <label><input required id="jongen" type="radio" value="geslacht">jongen</label> 
-            <label><input required id="meisje" type="radio" value="meisje">meisje</label>
+                <label for="geslacht">Raad het geslacht</label><br>
+                <input type="radio" id="jongen" name="geslacht" value="jongen">
+                <label for="jongen">jongetje</label><br>
+                <input type="radio" id="meisje" name="geslacht" value="meisje">
+                <label for="meisje">meisje</label><br><br>
+            </form>
         </Fieldset>
-        <fieldset>
+        <fieldset class="box">
             <legend>eigenschapjes</legend>
             <label><input required id="gewicht" type="text" placeholder="In grammetjes">gewicht</label>
             <label><input required id="lengte" type="text" placeholder="In centimetertjes">lengte</label>
