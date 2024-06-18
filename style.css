@@ -4,6 +4,6 @@ h1, h2, h3, p, fieldset {
 body {
   background-color: lightgrey;
   }
-.foto1 {
+#foto1 {
   align-content: center;
   }
