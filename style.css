@@ -3,6 +3,7 @@ h1, h2, h3, p, fieldset {
   }
 body {
   linear-gradient(90deg,rgb(0,0,255),rgb(255,0,0))
+}
 #foto1 {
   margin: auto;
   display: block;
