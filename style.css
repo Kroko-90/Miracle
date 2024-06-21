@@ -29,7 +29,7 @@ body {
   Display: inline-block;
 }
 #lengte, #gewicht {
-  width: 40px;
+  width: 50px;
 }
 .box {
   min-width: auto;
