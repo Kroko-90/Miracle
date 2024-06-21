@@ -34,4 +34,5 @@ body {
 .box {
   width: 600px;
   padding:fit-content;
+  align-content: center;
 }
