@@ -16,6 +16,7 @@ body {
   width: 300px;
 }
 #timer {
+  font: strong;
   margin-top: 10px;
   margin-bottom: 10px;
   color: red;
