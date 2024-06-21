@@ -5,7 +5,7 @@ h1 {
   font-size: 50px;
 }
 h2 {
-  font-size:40px;
+  font-size: 20px;;
 }
 body {
   background: linear-gradient(90deg,rgb(244,194,194)20%,rgb(255,255,255),rgb(137, 207, 240)80%);
@@ -19,7 +19,7 @@ body {
 
   margin-top: 10px;
   margin-bottom: 10px;
-  color: red;
+  color: green;
   font-size: 100px;
   }
 .send {
