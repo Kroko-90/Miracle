@@ -26,5 +26,5 @@ body {
   text-align: center
 }
 .geslacht {
-  Display: inline-box;
+  Display: inline-block;
 }
