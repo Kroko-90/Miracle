@@ -1,4 +1,4 @@
-h1, h2, h3, p, fieldset, submit {
+h1, h2, h3, p, fieldset {
   text-align: center;
   }
 h1 {
@@ -21,3 +21,6 @@ body {
   color: red;
   font-size: 100px;
   }
+send {
+  text-align: center
+}
