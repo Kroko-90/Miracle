@@ -31,3 +31,7 @@ body {
 #lengte, #gewicht {
   width: 40px;
 }
+.box {
+  width: 600px;
+  padding:fit-content;
+}
