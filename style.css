@@ -1,7 +1,7 @@
 h1, h2, h3, p, fieldset {
   text-align: center;
   }
-.deel1 {
+body {
   background: linear-gradient(90deg,rgb(0,0,255),rgb(255,0,0))
 }
 #foto1 {
