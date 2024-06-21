@@ -8,7 +8,7 @@ h2 {
   font-size:40px;
 }
 body {
-  background: linear-gradient(90deg,rgb(244,194,194),rgb(255,255,255),rgb(137, 207, 240));
+  background: linear-gradient(90deg,rgb(244,194,194)20%,rgb(255,255,255),rgb(137, 207, 240)20%);
 }
 #foto1 {
   margin: auto;
