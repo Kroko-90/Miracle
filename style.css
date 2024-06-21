@@ -28,3 +28,6 @@ body {
 #jongen, #meisje {
   Display: inline-block;
 }
+.lengte, .gewicht {
+  width: 100px;
+}
