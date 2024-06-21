@@ -1,14 +1,14 @@
-h1, h2, h3, p, fieldset,  {
+h1, h2, h3, p, fieldset  {
   text-align: center;
   }
 h1 {
-  font-size: 50px;
+  font-size: 30px;
 }
 h2 {
   font-size: 20px;;
 }
 body {
-  background: linear-gradient(90deg,rgb(244,194,194)20%,rgb(255,255,255),rgb(137, 207, 240)80%);
+  background: linear-gradient(90deg,rgb(244,194,194)30%,rgb(255,255,255),rgb(137, 207, 240)70%);
 }
 #foto1 {
   margin: auto;
@@ -19,8 +19,8 @@ body {
 
   margin-top: 10px;
   margin-bottom: 10px;
-  color: green;
-  font-size: 100px;
+  color: red;
+  font-size: 50px;
   }
 .send {
   text-align: center
@@ -32,7 +32,9 @@ body {
   width: 40px;
 }
 .box {
-  width: 600px;
+  min-width: auto;
   padding:fit-content;
   margin:auto;
+  max-width: fit-content;
+  color
 }
