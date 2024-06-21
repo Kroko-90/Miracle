@@ -13,7 +13,8 @@ body {
 #foto1 {
   margin: auto;
   display: block;
-  width: 300px;
+  width-max: 300px;
+  width: auto;
 }
 #timer {
 
@@ -23,13 +24,13 @@ body {
   font-size: 50px;
   }
 .send {
-  text-align: center
+  text-align: center;
 }
 #jongen, #meisje {
   Display: inline-block;
 }
 #lengte, #gewicht {
-  width: 50px;
+  width: auto;
 }
 .box {
   min-width: auto;
