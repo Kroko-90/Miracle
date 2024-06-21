@@ -13,8 +13,7 @@ body {
 #foto1 {
   margin: auto;
   display: block;
-  width-max: 200px;
-  width-min: auto;
+  width: 300px;
 }
 #timer {
 
