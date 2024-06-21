@@ -1,11 +1,15 @@
 h1, h2, h3, p, fieldset {
   text-align: center;
   }
+h1 {
+  font-siz: 50px;
+}
 h2 {
-  margin-bottom: -100px
+  font-size:40px;
+  margin-bottom: -100px;
 }
 body {
-  background: linear-gradient(90deg,rgb(244,194,194),rgb(255,255,255),rgb(137, 207, 240))
+  background: linear-gradient(90deg,rgb(244,194,194),rgb(255,255,255),rgb(137, 207, 240));
 }
 #foto1 {
   margin: auto;
