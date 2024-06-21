@@ -1,4 +1,4 @@
-h1, h2, h3, p, fieldset, .box {
+h1, h2, h3, p, fieldset,  {
   text-align: center;
   }
 h1 {
@@ -34,5 +34,5 @@ body {
 .box {
   width: 600px;
   padding:fit-content;
-  align-content: center;
+  margin:auto;
 }
