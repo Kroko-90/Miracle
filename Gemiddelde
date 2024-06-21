@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gemiddelde</title>
+</head>
+<body>
+    <h1>Data Average:</h1>
+    <p>
+        <?php
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                $length = $_POST['gewicht'];
+                $sum = 0;
+                for ($i = 0; $i < $gewicht; $i++) {
+                    $sum += $_POST["data$i"];
+                }
+                $average = $sum / $gewicht;
+                echo "The average of the collected data is: $average";
+            }
+        ?>
+    </p>
+</body>
+</html>
